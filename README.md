@@ -1,16 +1,39 @@
 ### Hi there 👋
 
-<!--
-**Labohkip81/Labohkip81** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+from dataclasses import dataclass
+from typing import Sequence
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+@dataclass(frozen=True)
+class Portfolio:
+    name: str = 'Laban Kiplagat'
+    location: str = 'Nairobi Kenya'
+    profile: str = 'Python-Django Developer, Linux User, React Dev'
+    experience: str = '3+ years'
+    hobbies: Sequence[str] = 'Novels', 'Coffee', 'open source', 'clean code'
+
+
+@dataclass(frozen=True)
+class Skills:
+    languages: Sequence[str] = 'python', 'shell', 'dart', 'JavaScript'
+    operation_systems: Sequence[str] = 'linux', 'Unix'
+    test_frameworks: Sequence[str] = 'pytest', 'pyats', 'unittests', 'doctest', 'selenium', 'celery'
+    web_frameworks: Sequence[str] = 'flask', 'django','django rest-framework'
+    code_quality: Sequence[str] = 'flake8', 'mypy', 'pylint', 'black', 'pydocstyle'
+    devops: Sequence[str] = 'jenkins', 'travis', 'docker'
+    version_control: Sequence[str] = 'git'
+    approaches: Sequence[str] = 'object oriented', 'asyncio'
+    ongoing: Sequence[str] = 'backend/web development', 'UI mastery', 'javascript'
+
+
+@dataclass(frozen=True)
+class Social:
+    github: str = 'https:www.github.com/labohkip81
+    codewars: str = 'https://www.codewars.com/users/labohkip81'
+    twitter: str = 'https://twitter.com/kiplagat_laban'
+    linkedin: str = 'https://www.linkedin.com/in/labohkip81'
+    blog: str = 'https://labohkip81.github.io'
+    email: str = 'labankiplagat81@gmail.com'
+    
+ ### Thanks for your time.🙏
+ 

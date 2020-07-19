@@ -1,4 +1,4 @@
-
+```python
 from dataclasses import dataclass
 from typing import Sequence
 
@@ -34,4 +34,4 @@ class Social:
     blog: str = 'https://labohkip81.github.io'
     email: str = 'labankiplagat81@gmail.com'
   
- 
+ ````

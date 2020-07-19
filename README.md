@@ -1,4 +1,3 @@
-### Hi there 👋
 
 from dataclasses import dataclass
 from typing import Sequence
@@ -34,6 +33,5 @@ class Social:
     linkedin: str = 'https://www.linkedin.com/in/labohkip81'
     blog: str = 'https://labohkip81.github.io'
     email: str = 'labankiplagat81@gmail.com'
-    
- ### Thanks for your time.🙏
+  
  

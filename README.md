@@ -16,24 +16,24 @@ class Portfolio:
 
 @dataclass(frozen=True)
 class Skills:
-    languages: Sequence[str] = 'python', 'shell', 'dart', 'JavaScript'
+    languages: Sequence[str] = 'python', 'shell', 'dart', 'JavaScript',
     operation_systems: Sequence[str] = 'linux', 'Unix'
     test_frameworks: Sequence[str] = 'pytest', 'pyats', 'unittests', 'doctest', 'selenium', 'celery'
-    web_frameworks: Sequence[str] = 'flask', 'django','django rest-framework'
+    web_frameworks: Sequence[str] = 'flask', 'django','django rest-framework', 'react.js'
     code_quality: Sequence[str] = 'flake8', 'mypy', 'pylint', 'black', 'pydocstyle'
     devops: Sequence[str] = 'jenkins', 'travis', 'docker'
     version_control: Sequence[str] = 'git'
     approaches: Sequence[str] = 'object oriented', 'asyncio'
-    ongoing: Sequence[str] = 'backend/web development', 'UI mastery', 'javascript'
+    ongoing: Sequence[str] = 'vue.js'
 
 
 @dataclass(frozen=True)
 class Social:
-    github: str = 'https:www.github.com/labohkip81
+    github: str = 'https://www.github.com/labohkip81
     codewars: str = 'https://www.codewars.com/users/labohkip81'
     twitter: str = 'https://twitter.com/kiplagat_laban'
     linkedin: str = 'https://www.linkedin.com/in/labohkip81'
-    blog: str = 'https://labohkip81.github.io'
-    email: str = 'labankiplagat81@gmail.com'
+    portfolio: str = 'https://labohkip81.github.io'
+    email: str = 'laban@gigapptl.com'
   
  ````

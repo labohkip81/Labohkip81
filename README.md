@@ -29,7 +29,7 @@ class Skills:
 
 @dataclass(frozen=True)
 class Social:
-    github: str = 'https://www.github.com/labohkip81
+    github: str = 'https://www.github.com/labohkip81'
     codewars: str = 'https://www.codewars.com/users/labohkip81'
     twitter: str = 'https://twitter.com/kiplagat_laban'
     linkedin: str = 'https://www.linkedin.com/in/labohkip81'

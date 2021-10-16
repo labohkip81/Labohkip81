@@ -34,6 +34,6 @@ class Social:
     twitter: str = 'https://twitter.com/kiplagat_laban'
     linkedin: str = 'https://www.linkedin.com/in/labohkip81'
     portfolio: str = 'https://labohkip81.github.io'
-    email: str = 'laban@gigapptl.com'
+    email: str = 'labankiplagat81@gmail.com' 
   
  ````

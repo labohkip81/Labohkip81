@@ -1,2 +1,2 @@
-### Checkoout 👋
+### Checkout 👋
 Fameve.com
